@@ -1,0 +1,13 @@
+Schreibe eine kreative Kriminalgeschichte mit einem Todesopfer und 5 Charakteren.
+Gebe jedem Charakter 5 Informationen über sich, die er geheim halten sollte.
+Gebe jedem Charakter 2 Hinweise über zufällige andere Charaktere.
+
+Gebe folgende Abschnitte aus:
+-Storyeinführung
+-Charaktere
+-Auflösung des Falls
+
+Dabei soll die Einführung und Auflösung aus der Perspektive eines Erzählers wiedergegeben werden.
+Bei den Charaktere soll eine detaillierte Charakterbeschreibung als Fließtext ausgegeben werden.
+Unter den Charakterbeschreibungen sollen dann die Informationen und Hinweise aufgelistet werden.
+Der Text für die Informationen und Hinweise richten sich an die jeweiligen Charaktere und sollen nichts über Hinweise und Informationen anderer Charaktere verraten.

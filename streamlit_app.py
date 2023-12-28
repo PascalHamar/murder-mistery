@@ -1,16 +1,14 @@
 import streamlit as st
+import storygenerator as sg
 
 def generate_story():
-    # Placeholder for story generation logic
-    return "Mystery Story", "Character List"
+    sg.main()
 
 def main():
     st.title("Murder Mystery Game")
 
     if st.button("Start Game"):
-        story, characters = generate_story()
-        st.write("Story: ", story)
-        st.write("Characters: ", characters)
+        st.write("Content: ", generate_story())
     else:
         st.write("Click the button to start the game!")
 
