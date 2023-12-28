@@ -1,8 +1,9 @@
 # storygenerator.py
+import pip
+pip install openai
+from openai import OpenAI
 
-import openai
-
-client = openai.OpenAI()
+client = OpenAI()
 
 def generate_story_from_prompt(file_path):
     # Lesen des Prompts aus der Datei mit UTF-8-Kodierung
