@@ -1,8 +1,10 @@
-from openai import OpenAI
+# storygenerator.py
 
-client = OpenAI()
+import openai
 
-def send_prompt_to_gpt4(file_path):
+client = openai.OpenAI()
+
+def generate_story_from_prompt(file_path):
     # Lesen des Prompts aus der Datei mit UTF-8-Kodierung
     with open(file_path, 'r', encoding='utf-8') as file:
         prompt = file.read()
@@ -15,18 +17,3 @@ def send_prompt_to_gpt4(file_path):
     )
 
     return response.choices[0].message.content
-
-def save_response_to_file(response, file_path):
-    # Speichern der Antwort in einer Datei mit UTF-8-Kodierung
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(response)
-
-# Hauptausführung
-if __name__ == "__main__":
-    prompt_file = 'storyprompt.txt'
-    response_file = 'response.txt'
-
-    response = send_prompt_to_gpt4(prompt_file)
-    save_response_to_file(response, response_file)
-    print("Antwort in " + response_file + " gespeichert.")
-
