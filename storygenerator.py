@@ -1,8 +1,8 @@
-# storygenerator.py
-import openai
-import os
+import streamlit as st
+from openai import OpenAI
 
-openai.api_key = os.getenv['OPENAI_API_KEY']
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
 
 def generate_story_from_prompt(file_path):
     # Lesen des Prompts aus der Datei mit UTF-8-Kodierung
@@ -10,7 +10,7 @@ def generate_story_from_prompt(file_path):
         prompt = file.read()
 
     # Senden des Prompts an GPT-4 und Empfangen der Antwort
-    response = openai.Completion.create(
+    response = client.chat.completions.create(
         model="gpt-4",  # Sie können das gewünschte Modell hier spezifizieren
         prompt=prompt,
         max_tokens=150
