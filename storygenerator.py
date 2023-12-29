@@ -1,7 +1,7 @@
 import streamlit as st
-from openai import OpenAI
+import openai
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 
 def generate_story_from_prompt(file_path):
