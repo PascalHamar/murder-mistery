@@ -1,6 +1,7 @@
 import streamlit as st
 import storygenerator as sg
 
+
 def main():
     st.title("Murder Mystery Game")
 
