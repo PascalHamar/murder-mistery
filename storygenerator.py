@@ -2,6 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 
+# AUTH
 try:
     api_key = st.secrets["OPENAI_API_KEY"]
 except Exception as e:
@@ -15,17 +16,31 @@ if not api_key:
 
 client = OpenAI(api_key=api_key)
 
+# Storygenerator
 def generate_story_from_prompt(file_path):
-    # Lesen des Prompts aus der Datei mit UTF-8-Kodierung
+    # Read prompt from file
     with open(file_path, 'r', encoding='utf-8') as file:
         prompt = file.read()
 
-    # Senden des Prompts an GPT-4 und Empfangen der Antwort
+    # Send prompt to GPT-4 and receive response
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
                 {"role": "user", "content": prompt}
         ],
-        max_tokens=150
+        max_tokens=1000
+    )
+    return response.choices[0].message.content
+
+# Charactergenerator
+def generate_characters_from_story(story, num_characters):
+    prompt = f"Basierend auf der folgenden Geschichte, erstelle {num_characters} detaillierte Charakterprofile:\n\n{story}"
+    # Send prompt to GPT-4 and receive response
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+                {"role": "user", "content": prompt}
+        ],
+        max_tokens=1000
     )
     return response.choices[0].message.content

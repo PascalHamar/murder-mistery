@@ -1,6 +1,6 @@
-Schreibe eine kreative Kriminalgeschichte mit einem Todesopfer und 5 Charakteren.
-Gebe jedem Charakter 5 Informationen über sich, die er geheim halten sollte.
-Gebe jedem Charakter 2 Hinweise über zufällige andere Charaktere.
+Schreibe eine kreative Kriminalgeschichte mit einem Todesopfer und <num_characters> Charakteren.
+Gebe jedem Charakter <num_information> Informationen über sich, die er geheim halten sollte.
+Gebe jedem Charakter <num_hints> Hinweise über zufällige andere Charaktere.
 
 Gebe folgende Abschnitte aus:
 -Storyeinführung
