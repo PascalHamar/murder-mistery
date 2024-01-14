@@ -50,7 +50,7 @@ def generate_story_from_custom_prompt(file_path):
         messages=[
                 {"role": "user", "content": prompt}
         ],
-        max_tokens=10000
+        max_tokens=4097
     )
     return response.choices[0].message.content
 
