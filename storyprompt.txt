@@ -1,4 +1,6 @@
-Schreibe eine kreative Kriminalgeschichte mit einem Todesopfer und <num_characters> Charakteren.
+Schreibe eine kreative Kriminalgeschichte zum Thema <theme> mit einem Todesopfer und <num_characters> Charakteren.
+Die Charaktere befinden sich in einem Raum nachdem die Tat bekannt wird und wissen, dass es einer von ihnen war.
+Die Charaktere müssen den Täter selbst ausfindig machen.
 Gebe jedem Charakter <num_information> Informationen über sich, die er geheim halten sollte.
 Gebe jedem Charakter <num_hints> Hinweise über zufällige andere Charaktere.
 
@@ -8,6 +10,9 @@ Gebe folgende Abschnitte aus:
 -Auflösung des Falls
 
 Dabei soll die Einführung und Auflösung aus der Perspektive eines Erzählers wiedergegeben werden.
+Der Text für die Charaktere soll an die Charaktere selbst gerichtet sein, damit der Spieler in seine Rolle schlüpfen kann.
+Der Mörder weiß, dass er der Mörder ist.
 Bei den Charaktere soll eine detaillierte Charakterbeschreibung als Fließtext ausgegeben werden.
 Unter den Charakterbeschreibungen sollen dann die Informationen und Hinweise aufgelistet werden.
 Der Text für die Informationen und Hinweise richten sich an die jeweiligen Charaktere und sollen nichts über Hinweise und Informationen anderer Charaktere verraten.
+Vor jedem Abschnitt soll der Name des Abschnitts in Platzhaltern stehen (z.B. <Storyeinführung>).

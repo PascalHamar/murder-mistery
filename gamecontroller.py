@@ -1,4 +1,3 @@
-import streamlit as st
 import storygenerator as sg
 
 def start_game():
@@ -18,3 +17,8 @@ def create_characters(story, num_characters):
     f.write(characters)
     f.close()
     return characters
+
+def start_game_one_prompt():
+    prompt_file = 'prompt_v2.txt'
+    generated_story = sg.generate_story_from_custom_prompt(prompt_file)
+    return generated_story
