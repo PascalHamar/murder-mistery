@@ -43,14 +43,14 @@ def generate_story_from_custom_prompt(file_path):
     prompt = utils.convert_input_to_prompt(prompt, st.session_state.num_information, '<num_information>')
     prompt = utils.convert_input_to_prompt(prompt, st.session_state.num_hints, '<num_hints>')
     prompt = utils.convert_input_to_prompt(prompt, st.session_state.theme, '<theme>')
-    prompt = utils.convert_input_to_prompt(prompt, st.session_state.theme, '<custom>')
+    prompt = utils.convert_input_to_prompt(prompt, st.session_state.custom, '<custom>')
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
                 {"role": "user", "content": prompt}
         ],
-        max_tokens=3000
+        max_tokens=2000
     )
     return response.choices[0].message.content
 
