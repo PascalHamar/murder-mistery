@@ -4,7 +4,6 @@ Jeder Charakter soll seine Rolle kennen.
 Jeder Charakter soll <num_information> Informationen über sich erhalten, die er versucht geheim zu halten. Jeder Charakter soll <num_hints> Hinweis(e) über andere Charaktere erhalten.
 Die Charakterkarte enthält einen Text aus der Perspektive des Charakters mit einem Vorstellungstext, der sich an die restlichen Charaktere richtet um sich vorzustellen.
 Erstelle für das Spiel eine kreative Kriminalgeschichte zu folgendem Thema: <theme>.
-<custom>
 
 Gebe folgendes aus:
 
