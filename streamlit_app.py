@@ -15,6 +15,7 @@ def main():
         st.session_state.num_characters = st.number_input("Number of characters", min_value=3, max_value=10, step=1)
         st.session_state.num_information = st.number_input("Information per character", min_value=1, max_value=10, step=1)
         st.session_state.num_hints = st.number_input("Hints per character", min_value=1, max_value=10, step=1)
+        st.session_state.custom = st.text_input("Custom")
         "Click the button to generate the game!"
         if st.button("Generate Game"):
             st.session_state.generated_content = gc.start_game_one_prompt()
