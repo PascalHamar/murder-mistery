@@ -8,7 +8,7 @@ Erstelle für das Spiel eine kreative Kriminalgeschichte zu folgendem Thema: <th
 Gebe folgendes aus:
 
 - Einführung
-- Charakterkarte je Charakter
+- Charakterkarte je Charakter (Besteht aus Vorstellungstext, Auflistung der Informationen und Hinweise)
 - Auflösung der Tat
 
 Vor jedem Abschnitt soll der Abschnittsname in Platzhaltern stehen (z.B. <Einführung>)
