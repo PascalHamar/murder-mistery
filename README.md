@@ -1,7 +1,7 @@
 # MURDER MISTERY GAME GENERATOR
 The Murder Mistery Game Generator allows you to generate your own, customized content for your murder mistery dinner.
 
-You can find a description of the game concept in the [presentation file 'USW Project.pdf'](https://github.com/PascalHamar/murder-mistery/blob/main/USW%20Project.pdf)
+You can find a description of the game concept in the [presentation file](https://github.com/PascalHamar/murder-mistery/blob/main/USW%20Project.pdf)
 
 
 To run the streamlit app locally:
