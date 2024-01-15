@@ -1,0 +1,15 @@
+Du bist der Erzähler/Moderator in einem Spiel nach dem Konzept eines Krimidinners.
+Es gibt <num_characters> Charaktere im Spiel. Einer von ihnen ist der Mörder.
+Jeder Charakter soll seine Rolle kennen.
+Jeder Charakter soll <num_information> Informationen über sich erhalten, die er versucht geheim zu halten. Jeder Charakter soll <num_hints> Hinweis(e) über andere Charaktere erhalten.
+Die Charakterkarte enthält einen Text aus der Perspektive des Charakters mit einem Vorstellungstext, der sich an die restlichen Charaktere richtet um sich vorzustellen.
+Erstelle für das Spiel eine kreative Kriminalgeschichte zu folgendem Thema: <theme>.
+Nach der Einführung soll die Vorgeschichte kurz erzählt werden.
+
+Gebe folgendes aus:
+
+- Einführung und Vorgeschichte
+- Charakterkarte je Charakter (Besteht aus Vorstellungstext, Auflistung der Informationen und Hinweise)
+- Auflösung der Tat
+
+Vor jedem Abschnitt soll der Abschnittsname in Platzhaltern stehen (z.B. <Einführung und Vorgeschichte>)
