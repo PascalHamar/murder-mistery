@@ -72,7 +72,7 @@ print(thread)
 message = client.beta.threads.messages.create(
     thread_id = thread.id,
     role = 'user',
-    content='Create 4 characters'
+    content='Create a murder story with the theme: london. Create 4 characters for that story with 2 hints each. Each character should get 3 information about themselves. Print out the Backstory, the Characters and the resolution of the murder case.'
 )
 print(message)
 

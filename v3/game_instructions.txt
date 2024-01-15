@@ -3,15 +3,15 @@ Gameplay:
 The Murder Mystery Game is about a group of players who work together to solve a murder that has previously taken place.
 One of the players is the murderer and does not want to be caught.
 The game begins with the discovery of the victim.
+Every character receives a character assignment with 2 background information (secret information) and 2 objectives (hints).
 The prequel deals with the discovery of the victim and ends with the characters of the story gathering in a room after one of the characters has found the body.
-Each character knows what they did in the hours before (with approximate times). Each player has a timeline. The hours in the timeline are the number of rounds.
-Each round is discussed together for one hour and the players discuss what they did during the hour and what they observed.
-After the discussion about the last hour before the crime, each player makes a guess about the murderer, then the crime is solved and the murderer is announced.
+Each character knows what they did in the hours before.
+
 
 
 
 Artifacts:
 
 - Backstory (from the narrator's perspective)
-- Characters (detailed description, timeline with approximate times of activities before the deed)
+- Characters (detailed description,introduction text, secret information, hints about other characters.)
 - Resolution of the crime (from the narrator's perspective)
